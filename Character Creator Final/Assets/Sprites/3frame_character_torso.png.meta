@@ -75,7 +75,7 @@ TextureImporter:
       213: -5381860027003716453
     second: 3frame_character_torso_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +695,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      3frame_character_torso_0: -5253316977630655212
+      3frame_character_torso_1: -302238117444555354
+      3frame_character_torso_10: 824711151453431541
+      3frame_character_torso_11: -8283079844504661622
+      3frame_character_torso_12: 5779198043044474482
+      3frame_character_torso_13: 2588829072479384257
+      3frame_character_torso_14: -4332948258993807871
+      3frame_character_torso_15: -6991643011220450808
+      3frame_character_torso_16: -3845134796476689761
+      3frame_character_torso_17: -5546248105054073105
+      3frame_character_torso_18: -9134019724983306224
+      3frame_character_torso_19: 6102246637840853795
+      3frame_character_torso_2: 8127651544978494305
+      3frame_character_torso_20: 7496748887807634623
+      3frame_character_torso_21: 5303549222057235318
+      3frame_character_torso_22: 4025709621513169919
+      3frame_character_torso_23: -5381860027003716453
+      3frame_character_torso_3: 6738567423350854838
+      3frame_character_torso_4: 3728623526018766680
+      3frame_character_torso_5: 8605772042573305103
+      3frame_character_torso_6: -8504521117873672825
+      3frame_character_torso_7: -3663945391355047956
+      3frame_character_torso_8: -275374405981405242
+      3frame_character_torso_9: 1773436100734927446
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
